@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="2020 U.S Democratic National Primaries Standings">
+
+    <!-- Website Title -->
+    <title>2020 U.S. Democratic Primaries</title>
+
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	  <link href="css/magnific-popup.css" rel="stylesheet">
+	  <link href="css/styles.css" rel="stylesheet">
+
+	  <!-- Democratic Party Favicon -->
+    <link rel="icon" href="images/dem.png">
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+
+     <!-- Preloader -->
+	   <div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+     </div>
+
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#header">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#state-of">STATE-OF</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#competitive">COMPETITIVE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#top-change">TOP CANDIDATES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#team">MEET THE TEAM</a>
+                </li>
+            </ul>
+        </div>
+    </nav> <!-- end of navbar -->
+    <!-- end of navbar -->
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="header-content">
+          <h1>What if the 2020 Democratic National Convention was held tomorrow?</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-container">
+                          <p class="p-heading p-large">This website is an analysis on the 2020 U.S. Democratic Primaries. We will
+                          analyze polling data collected from the FiveThirtyEight and make inferences as to which states are more
+                          competitive based off average polling from earlier this year, show which candidates are leading in some
+                          states, and summarize national support for the leading candidates since September.</p>
+
+                        </div>
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of header-content -->
+    </header>
+
+    <header id="state-of" class="header">
+        <div class="header-content">
+          <h1>What is the current state of the primaries nationally (as of December 2019)?</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-container">
+                            <!-- Embedded Tableau visualization #1 -->
+                            <div class='tableauPlaceholder' id='viz1576200164882' style='position: relative'>
+                              <noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2020PrimaryStateLeaders&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript>
+                              <object class='tableauViz'  style='display:none;'>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                                <param name='embed_code_version' value='3' />
+                                <param name='path' value='views&#47;2020PrimaryStateLeaders&#47;Sheet1?:embed=y&amp;:display_count=y&amp;publish=yes' />
+                                <param name='toolbar' value='yes' />
+                                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2020PrimaryStateLeaders&#47;Sheet1&#47;1.png' />
+                                <param name='animate_transition' value='yes' />
+                                <param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' />
+                                <param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' />
+                                <param name='filter' value='publish=yes' />
+                              </object>
+                            </div>
+                            <script type='text/javascript'>
+                              var divElement = document.getElementById('viz1576200164882');
+                              var vizElement = divElement.getElementsByTagName('object')[0];
+                              vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.50)+'px';
+                              var scriptElement = document.createElement('script');
+                              scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                              vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                            </script>
+                            </br>
+                            <p class="p-heading p-large">This map shows which candidate is leading in each state. The data was collected from FiveThirtyEight, and includes polling data conducted in specific states. States without any polling data were excluded. The leader of each state was calculated by taking the average of each candidates polling across the entire primary season. This was done to account for long term trends in support, and demonstrate which candidate has had consistent support in a given state. This gives a summary of which candidate each state has supported throughout the primary process. As we can see based off these results, former Vice President Joe Biden leads with a majority of states.</p>
+                        </div>
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of header-content -->
+    </header> <!-- end of header -->
+
+    <header id="competitive" class="header">
+        <div class="header-content">
+          <h1>Which seats are competitive?</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-container">
+                            <!-- Embedded Tableau visualization #2 -->
+                            <div class='tableauPlaceholder' id='viz1576280134510' style='position: relative'>
+                              <noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;W8&#47;W89FJ7SPK&#47;1_rss.png' style='border: none' /></a></noscript>
+                              <object class='tableauViz'  style='display:none;'>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                                <param name='embed_code_version' value='3' />
+                                <param name='path' value='shared&#47;W89FJ7SPK' />
+                                <param name='toolbar' value='yes' />
+                                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;W8&#47;W89FJ7SPK&#47;1.png' />
+                                 <param name='animate_transition' value='yes' />
+                                 <param name='display_static_image' value='yes' />
+                                 <param name='display_spinner' value='yes' />
+                                 <param name='display_overlay' value='yes' />
+                                 <param name='display_count' value='yes' />
+                                 <param name='filter' value='publish=yes' />
+                               </object>
+                             </div>
+                             <script type='text/javascript'>
+                                var divElement = document.getElementById('viz1576280134510');
+                                var vizElement = divElement.getElementsByTagName('object')[0];
+                                vizElement.style.width='100%';
+                                vizElement.style.height=(divElement.offsetWidth*0.50)+'px';
+                                var scriptElement = document.createElement('script');
+                                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                             </script>
+                            </br>
+                              <p class="p-heading p-large">This map shows which states are competitive based off theleading
+                                candidate's polling average. It uses polling data from the FiveThirtyEight, and is calculated
+                                by taking an average of all polling for top candidates in each state and subtracting the average
+                                polling data for the second place candidate. States with larger lead poll values are least competitive,
+                                while states with smaller lead poll values are more competitive. As we can observe, several polls suggest
+                                that quite a few states have clear front runners while others are a little more competitive.</p>
+                        </div>
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of header-content -->
+    </header> <!-- end of header -->
+
+    <header id="top-change" class="header">
+        <div class="header-content">
+          <h1>How have the top candidates changed in the last few months?</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-container">
+                            <!-- Embedded Tableau visualization #3 -->
+                            <div class='tableauPlaceholder' id='viz1576280052150' style='position: relative'>
+                              <noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Le&#47;LeadCandidatesNationalPollingLast3Months&#47;LeadCandidates&#47;1_rss.png' style='border: none' /></a></noscript>
+                              <object class='tableauViz'  style='display:none;'>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                                <param name='embed_code_version' value='3' />
+                                <param name='site_root' value='' />
+                                <param name='name' value='LeadCandidatesNationalPollingLast3Months&#47;LeadCandidates' />
+                                <param name='tabs' value='no' />
+                                <param name='toolbar' value='yes' />
+                                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Le&#47;LeadCandidatesNationalPollingLast3Months&#47;LeadCandidates&#47;1.png' />
+                                <param name='animate_transition' value='yes' />
+                                <param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' />
+                                <param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' />
+                                <param name='filter' value='publish=yes' />
+                              </object></div>
+                              <script type='text/javascript'>
+                                var divElement = document.getElementById('viz1576280052150');
+                                var vizElement = divElement.getElementsByTagName('object')[0];
+                                vizElement.style.width='100%';
+                                vizElement.style.height=(divElement.offsetWidth*0.45)+'px';
+                                var scriptElement = document.createElement('script');
+                                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                              </script>
+                            </br>
+                            <p class="p-heading p-large">This line graph tracks the polling averages for the top four candidates over the last three months. The data was collected by FiveThirtyEight and includes major national polling data conducted since the early primary season. We took data from the past three months and calculated a polling average for Joe Biden, Elizabeth Warren, Bernie Sanders, and Pete Buttigieg for the months of September, October, and November. The graph demonstrates very recent trends in polling particularly a decline in support for Elizabeth Warren, and an increase in support for Pete Buttigieg that coincided with a decline in support for Joe Biden.</p>
+                        </div>
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of header-content -->
+    </header> <!-- end of header -->
+    <!-- end of header -->
+
+    <!-- Header -->
+    <header id="team" class="header">
+        <div class="header-content">
+          <h1>Meet the Team</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-container">
+                          <div class="slider">
+                              <div class="container">
+                                  <div class="row">
+                                      <div class="col-lg-12">
+
+                                          <!-- Card Slider -->
+                                          <div class="slider-container">
+                                              <div class="swiper-container card-slider">
+                                                  <div class="swiper-wrapper">
+
+                                                      <!-- Slide -->
+                                                      <div class="swiper-slide">
+                                                          <div class="card">
+                                                              <img class="card-image" src="images/connor.jpeg" alt="alternative">
+                                                              <div class="card-body">
+                                                                  <div class="testimonial-text">Conner worked on creating the 'current state-of-the-race' visualization and cleaned our data to show states-only data.</div>
+                                                                  <div class="testimonial-author"><a href="https://www.linkedin.com/in/conner-sinjem-511467158/">Conner Sinjem</a></div>
+                                                              </div>
+                                                          </div>
+                                                      </div> <!-- end of swiper-slide -->
+                                                      <!-- end of slide -->
+
+                                                      <!-- Slide -->
+                                                      <div class="swiper-slide">
+                                                          <div class="card">
+                                                              <img class="card-image" src="images/elise.jpg" alt="alternative">
+                                                              <div class="card-body">
+                                                                  <div class="testimonial-text">Elise worked on creating the 'three months change' visualization and cleaned our data to show national-only data.</div>
+                                                                  <div class="testimonial-author"><a href="https://www.linkedin.com/in/elise-bergmann-429702126/">Elise Bergmann</a></div>
+                                                              </div>
+                                                          </div>
+                                                      </div> <!-- end of swiper-slide -->
+                                                      <!-- end of slide -->
+
+                                                      <!-- Slide -->
+                                                      <div class="swiper-slide">
+                                                          <div class="card">
+                                                              <img class="card-image" src="images/joshua.jpeg" alt="alternative">
+                                                              <div class="card-body">
+                                                                  <div class="testimonial-text">Joshua worked on creating the 'competitive displacement' visualization and created the website.</div>
+                                                                  <div class="testimonial-author"><a href="https://www.linkedin.com/in/joshuapaup/">Joshua Paup</a></div>
+                                                              </div>
+                                                          </div>
+                                                      </div> <!-- end of swiper-slide -->
+                                                      <!-- end of slide -->
+
+                                                      <!-- Slide -->
+                                                      <div class="swiper-slide">
+                                                          <div class="card">
+                                                              <img class="card-image" src="images/savannah.jpeg" alt="alternative">
+                                                              <div class="card-body">
+                                                                  <div class="testimonial-text">Savannah worked on the project write-up.</div>
+                                                                  <div class="testimonial-author"><a href="https://www.linkedin.com/in/savannahbornstein/">Savannah Bornstein</a></div>
+                                                              </div>
+                                                          </div>
+                                                      </div> <!-- end of swiper-slide -->
+                                                      <!-- end of slide -->
+
+                                                      <!-- Slide -->
+                                                      <div class="swiper-slide">
+                                                          <div class="card">
+                                                              <img class="card-image" src="images/talia.png" alt="alternative">
+                                                              <div class="card-body">
+                                                                  <div class="testimonial-text">Talia worked on the project write-up.</div>
+                                                                  <div class="testimonial-author"><a href="https://www.linkedin.com/in/talia-colalancia-b65608172/">Talia Colalancia</a></div>
+                                                              </div>
+                                                          </div>
+                                                      </div> <!-- end of swiper-slide -->
+                                                      <!-- end of slide -->
+                                                  </div> <!-- end of swiper-wrapper -->
+
+                                                  <!-- Add Arrows -->
+                                                  <div class="swiper-button-next"></div>
+                                                  <div class="swiper-button-prev"></div>
+                                                  <!-- end of add arrows -->
+
+                                              </div> <!-- end of swiper-container -->
+                                          </div> <!-- end of sliedr-container -->
+                                          <!-- end of card slider -->
+
+                                      </div> <!-- end of col -->
+                                  </div> <!-- end of row -->
+                              </div> <!-- end of container -->
+                          </div> <!-- end of slider -->
+                          <!-- end of testimonials -->
+                        </div>
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of header-content -->
+    </header> <!-- end of header -->
+    <!-- end of header -->
+
+
+
+
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small white">Copyright © Joshua Paup, Conner Sinjem, Elise Bergmann, Savannah Bornstein, Talia Colalancia</p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright -->
+    <!-- end of copyright -->
+
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
+    <script src="js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+</body>
+</html>
